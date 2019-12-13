@@ -1,0 +1,33 @@
+{
+  "name": "urlparser",
+  "version": "1.0.0",
+  "description": "Converts a URL into a hash containing the URL's keys and parameters.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "start": "node ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/imelgrat/urlparser.git"
+  },
+  "keywords": [
+    "URL",
+    "Parser",
+    "Node",
+    "Javascript"
+  ],
+  "author": "Iván Melgrati",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/imelgrat/urlparser/issues"
+  },
+  "homepage": "https://github.com/imelgrat/urlparser#readme",
+  "dependencies": {
+    "lodash": "^4.17.15"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.2.2"
+  }
+}
