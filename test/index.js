@@ -1,5 +1,5 @@
 const { urlParser } = require('../index.js');
-const should = require('chai').should();
+require('chai').should();
 
 // Run tests on urlParser  
 describe('Test urlParser', function () {
